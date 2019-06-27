@@ -1,0 +1,10 @@
+setup.py
+thrift_demo/__init__.py
+thrift_demo/api/DemoService.py
+thrift_demo/api/__init__.py
+thrift_demo/api/constants.py
+thrift_demo/api/ttypes.py
+thrift_demo_py_api.egg-info/PKG-INFO
+thrift_demo_py_api.egg-info/SOURCES.txt
+thrift_demo_py_api.egg-info/dependency_links.txt
+thrift_demo_py_api.egg-info/top_level.txt
