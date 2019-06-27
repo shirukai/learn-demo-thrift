@@ -51,5 +51,5 @@ if __name__ == '__main__':
     # 创建服务:TSimpleServer/TForkingServer/TThreadedServer/TThreadPoolServer
     server = TServer.TSimpleServer(processor, transport, tfactory, pfactory)
 
-    print "python thrift server start"
+    print "python thrift server start on 8911"
     server.serve()

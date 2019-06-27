@@ -1,4 +1,4 @@
-package lear.demo.thrift.client;
+package learn.demo.thrift.client;
 
 import learn.demo.thrift.api.DemoService;
 import org.apache.thrift.protocol.TBinaryProtocol;
@@ -39,9 +39,10 @@ public class Application {
             TTransport socket = new TSocket(serverIp, serverPort);
             // 传输方式
             TFramedTransport transport = new TFramedTransport(socket);
-            transport.open();
             // 传输协议
             TProtocol protocol = new TBinaryProtocol(transport);
+            // 创建连接
+            transport.open();
             log.info("The application is creating thrift client from address {}:{} ……",serverIp,serverPort);
             return new DemoService.Client(protocol);
         }

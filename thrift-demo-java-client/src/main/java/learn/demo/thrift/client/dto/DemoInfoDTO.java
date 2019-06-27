@@ -1,4 +1,4 @@
-package lear.demo.thrift.client.dto;
+package learn.demo.thrift.client.dto;
 
 import java.util.List;
 

@@ -12,12 +12,6 @@
     <artifactId>thrfit-demo-java-server</artifactId>
 
     <dependencies>
-        <!-- thrift -->
-        <dependency>
-            <groupId>org.apache.thrift</groupId>
-            <artifactId>libthrift</artifactId>
-            <version>0.12.0</version>
-        </dependency>
         <!-- demo api -->
         <dependency>
             <groupId>learn.demo</groupId>

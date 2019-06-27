@@ -1,6 +1,6 @@
-package lear.demo.thrift.client.controller;
+package learn.demo.thrift.client.controller;
 
-import lear.demo.thrift.client.dto.DemoInfoDTO;
+import learn.demo.thrift.client.dto.DemoInfoDTO;
 import learn.demo.thrift.api.DemoInfo;
 import learn.demo.thrift.api.DemoService;
 import org.apache.thrift.TException;
