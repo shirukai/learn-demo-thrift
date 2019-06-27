@@ -12,7 +12,7 @@ from thrift_demo.api.ttypes import DemoInfo
 
 if __name__ == '__main__':
     # 建立socket
-    transport = TSocket.TSocket('127.0.0.1', 8911)
+    transport = TSocket.TSocket('127.0.0.1', 7911)
 
     # 传输方式，与服务端一致
     transport = TTransport.TFramedTransport(transport)
